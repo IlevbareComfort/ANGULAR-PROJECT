@@ -61,10 +61,10 @@
         <th mat-header-cell *matHeaderCellDef> Actions </th>
         <td mat-cell *matCellDef="let customer">
           <button mat-icon-button color="primary" (click)="editCustomer(customer.id)">
-            <mat-icon>edit</mat-icon>
+            <mat-icon><mat-icon><i class="fas fa-edit" style="color: #007bff;"></i></mat-icon></mat-icon>
           </button>
           <button mat-icon-button color="warn" (click)="deleteCustomer(customer.id)">
-            <mat-icon>delete</mat-icon>
+            <mat-icon><mat-icon><i class="fas fa-trash" style="color: #dc3545;"></i></mat-icon></mat-icon>
           </button>
         </td>
       </ng-container>
